@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloudT" />
+        <module name="eureka-server" />
+        <module name="eureka-client" />
+        <module name="eureka-service" />
+        <module name="eureka-feign" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="consul-client" target="1.8" />
+      <module name="eueka-service" target="1.8" />
+      <module name="eureka-zoo-client" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="consul-client" options="-parameters" />
+      <module name="eueka-service" options="-parameters" />
+      <module name="eureka-client" options="-parameters" />
+      <module name="eureka-feign" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="eureka-service" options="-parameters" />
+      <module name="eureka-zoo-client" options="-parameters" />
+    </option>
+  </component>
+</project>
