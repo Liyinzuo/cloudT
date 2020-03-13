@@ -5,6 +5,11 @@ spring:
 server:
   port: 1005
 
+## feign内置熔断 默认是关闭的
+feign:
+  hystrix:
+    enabled: true
+
 eureka:
   client:
     serviceUrl:
