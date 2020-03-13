@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85bd25eb-d538-46a6-be3f-745b2fbda626" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-feign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-feign/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-feign/src/main/java/com/example/demo/EurekaFeignApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-feign/src/main/java/com/example/demo/EurekaFeignApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-feign/src/main/java/com/example/demo/service/EurekaFeignService.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-feign/src/main/java/com/example/demo/service/EurekaFeignService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-feign/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-feign/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-service/src/main/java/com/example/demo/EurekaServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-service/src/main/java/com/example/demo/EurekaServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-service/src/main/java/com/example/demo/service/EurekaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-service/src/main/java/com/example/demo/service/EurekaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-feign/src/main/java/com/example/demo/control/feignController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-feign/src/main/java/com/example/demo/control/feignController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-service/src/main/java/com/example/demo/control/RibbonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-service/src/main/java/com/example/demo/control/RibbonController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eureka-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,28 +39,16 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/seestceh1/machine1" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
-  <component name="RunManager" selected="Application.EurekaFeignApplication">
-    <configuration name="ConsulClientApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.ConsulClientApplication" />
-      <module name="consul-client" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.EurekaZuulApplication">
     <configuration name="EurekaClientApplication (1)" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.demo.EurekaClientApplication" />
       <module name="eureka-client" />
@@ -144,21 +128,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EurekaZuulApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.EurekaZuulApplication" />
+      <module name="eureka-zuul" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.EurekaClientApplication (1)" />
-      <item itemvalue="Application.ConsulClientApplication" />
       <item itemvalue="Application.EurekaClientApplication" />
       <item itemvalue="Application.EurekaServerApplication" />
       <item itemvalue="Application.EurekaServiceApplication" />
       <item itemvalue="Application.EurekaFeignApplication" />
+      <item itemvalue="Application.EurekaZuulApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EurekaZuulApplication" />
         <item itemvalue="Application.EurekaFeignApplication" />
         <item itemvalue="Application.EurekaServiceApplication" />
         <item itemvalue="Application.EurekaClientApplication" />
         <item itemvalue="Application.EurekaServerApplication" />
-        <item itemvalue="Application.ConsulClientApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -200,30 +197,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584076770881" />
-    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1584077513003">
+    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1584092775605">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1584077513003" />
+    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1584092775605" />
     <state x="650" y="52" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1583998440461">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="650" y="52" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583998440461" />
-    <state width="1876" height="380" key="GridCell.Tab.0.bottom" timestamp="1584081092266">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1584085421275">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="380" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584081092266" />
-    <state width="1876" height="380" key="GridCell.Tab.0.center" timestamp="1584081092266">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584085421275" />
+    <state width="1876" height="380" key="GridCell.Tab.0.bottom" timestamp="1584092322127">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="380" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584081092266" />
-    <state width="1876" height="380" key="GridCell.Tab.0.left" timestamp="1584081092265">
+    <state width="1876" height="380" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584092322127" />
+    <state width="1876" height="380" key="GridCell.Tab.0.center" timestamp="1584092322127">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="380" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584081092265" />
-    <state width="1876" height="380" key="GridCell.Tab.0.right" timestamp="1584081092266">
+    <state width="1876" height="380" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584092322127" />
+    <state width="1876" height="380" key="GridCell.Tab.0.left" timestamp="1584092322127">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="380" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584081092266" />
+    <state width="1876" height="380" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584092322127" />
+    <state width="1876" height="380" key="GridCell.Tab.0.right" timestamp="1584092322127">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="380" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584092322127" />
     <state x="440" y="93" key="SettingsEditor" timestamp="1584068118955">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -232,13 +233,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1584080284846" />
-    <state x="567" y="216" width="786" height="608" key="find.popup" timestamp="1584069283478">
+    <state x="567" y="216" width="786" height="608" key="find.popup" timestamp="1584090606711">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="567" y="216" width="786" height="608" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584069283478" />
-    <state x="330" y="213" key="new project wizard" timestamp="1584074939701">
+    <state x="567" y="216" width="786" height="608" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584090606711" />
+    <state x="330" y="213" key="new project wizard" timestamp="1584081493421">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="330" y="213" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1584074939701" />
+    <state x="330" y="213" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1584081493421" />
   </component>
 </project>

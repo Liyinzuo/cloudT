@@ -12,7 +12,7 @@ public class feignController {
     @Resource
     private EurekaFeignService eurekaFeignService;
 
-    @GetMapping(value = "/fei")
+    @GetMapping(value = "/RIBBONFEIGN")
     public String fei() {
         return eurekaFeignService.dc();
     }

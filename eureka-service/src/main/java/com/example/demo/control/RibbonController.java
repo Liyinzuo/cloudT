@@ -12,7 +12,7 @@ public class RibbonController {
     @Resource
     private EurekaService eurekaService;
 
-    @GetMapping("/ri")
+    @GetMapping("/RIBBONFEIGN")
     public String ri() {
         return eurekaService.sayHi();
     }
