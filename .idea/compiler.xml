@@ -10,6 +10,7 @@
         <module name="eureka-server" />
         <module name="eureka-client" />
         <module name="eureka-zuul" />
+        <module name="eureka-config" />
         <module name="eureka-service" />
         <module name="eureka-feign" />
       </profile>
@@ -25,6 +26,7 @@
       <module name="consul-client" options="-parameters" />
       <module name="eueka-service" options="-parameters" />
       <module name="eureka-client" options="-parameters" />
+      <module name="eureka-config" options="-parameters" />
       <module name="eureka-feign" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="eureka-service" options="-parameters" />
