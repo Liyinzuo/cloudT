@@ -7,10 +7,10 @@ spring:
       label: master
       server:
         git:
-          uri: https://github.com/topsale/spring-cloud-config
-          search-paths: respo
-          username:
-          password:
+          uri: https://github.com/Liyinzuo/colud-config
+          search-paths: config-1
+          username: Liyinzuo
+          password: lyzlikebeef@163.com
 
 server:
   port: 8888

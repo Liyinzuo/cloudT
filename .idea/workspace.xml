@@ -2,10 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85bd25eb-d538-46a6-be3f-745b2fbda626" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-config/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-config-server/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-config/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-config-server/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-config/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-config-server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-config/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-config-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-config/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-config-server/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-config/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-config-server/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-config-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-config/src/main/java/com/example/demo/EurekaConfigApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-config-server/src/main/java/com/example/demo/EurekaConfigApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-config/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-config-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-config/src/test/java/com/example/demo/EurekaConfigApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-config-server/src/test/java/com/example/demo/EurekaConfigApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +34,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
@@ -39,13 +55,14 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="D:/seestceh1/machine1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../colud-config" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="Application.EurekaConfigApplication">
+  <component name="RunManager" selected="Application.EurekaZipkinsApplication">
     <configuration name="EurekaClientApplication (1)" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.demo.EurekaClientApplication" />
       <module name="eureka-client" />
@@ -75,7 +92,7 @@
     </configuration>
     <configuration name="EurekaConfigApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.demo.EurekaConfigApplication" />
-      <module name="eureka-config" />
+      <module name="eureka-config-server" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.demo.*" />
@@ -86,9 +103,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaFeignApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.EurekaFeignApplication" />
-      <module name="eureka-feign" />
+    <configuration name="EurekaConfigClientApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.EurekaConfigClientApplication" />
+      <module name="eureka-config-client" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.demo.*" />
@@ -112,9 +129,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.EurekaServiceApplication" />
-      <module name="eureka-service" />
+    <configuration name="EurekaZipkinApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.EurekaZipkinApplication" />
+      <module name="eureka-zipkin" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.demo.*" />
@@ -125,9 +142,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaZuulApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.EurekaZuulApplication" />
-      <module name="eureka-zuul" />
+    <configuration name="EurekaZipkinsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.EurekaZipkinsApplication" />
+      <module name="eureka-zipkins" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.demo.*" />
@@ -139,20 +156,21 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.EurekaClientApplication" />
       <item itemvalue="Application.EurekaClientApplication (1)" />
       <item itemvalue="Application.EurekaServerApplication" />
-      <item itemvalue="Application.EurekaServiceApplication" />
-      <item itemvalue="Application.EurekaFeignApplication" />
-      <item itemvalue="Application.EurekaZuulApplication" />
       <item itemvalue="Application.EurekaConfigApplication" />
+      <item itemvalue="Application.EurekaConfigClientApplication" />
+      <item itemvalue="Application.EurekaZipkinApplication" />
+      <item itemvalue="Application.EurekaZipkinsApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EurekaZipkinsApplication" />
+        <item itemvalue="Application.EurekaConfigClientApplication" />
         <item itemvalue="Application.EurekaConfigApplication" />
         <item itemvalue="Application.EurekaServerApplication" />
-        <item itemvalue="Application.EurekaZuulApplication" />
-        <item itemvalue="Application.EurekaFeignApplication" />
-        <item itemvalue="Application.EurekaServiceApplication" />
+        <item itemvalue="Application.EurekaZipkinApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -186,10 +204,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="653" y="188" key="#EurekaClientApplication/0.0.1920.1040@0.0.1920.1040" timestamp="1584068151530" />
-    <state x="552" y="177" key="#Project_Structure" timestamp="1583979590215">
+    <state x="552" y="177" key="#Project_Structure" timestamp="1584335981139">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="177" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1583979590215" />
+    <state x="552" y="177" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1584335981139" />
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584076770881">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -202,45 +220,49 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="650" y="52" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583998440461" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1584085421275">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1584347697955">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584085421275" />
-    <state width="1876" height="380" key="GridCell.Tab.0.bottom" timestamp="1584327835712">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584347697955" />
+    <state width="1876" height="380" key="GridCell.Tab.0.bottom" timestamp="1584354004578">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="380" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584327835712" />
-    <state width="1876" height="380" key="GridCell.Tab.0.center" timestamp="1584327835712">
+    <state width="1876" height="380" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584354004578" />
+    <state width="1876" height="380" key="GridCell.Tab.0.center" timestamp="1584354004578">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="380" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584327835712" />
-    <state width="1876" height="380" key="GridCell.Tab.0.left" timestamp="1584327835712">
+    <state width="1876" height="380" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584354004578" />
+    <state width="1876" height="380" key="GridCell.Tab.0.left" timestamp="1584354004578">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="380" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584327835712" />
-    <state width="1876" height="380" key="GridCell.Tab.0.right" timestamp="1584327835712">
+    <state width="1876" height="380" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584354004578" />
+    <state width="1876" height="380" key="GridCell.Tab.0.right" timestamp="1584354004578">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="380" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584327835712" />
-    <state x="440" y="93" key="SettingsEditor" timestamp="1584068118955">
+    <state width="1876" height="380" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584354004578" />
+    <state x="490" y="174" key="Maven.ArtifactSearchDialog" timestamp="1584344976436">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="93" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584068118955" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1584080284846">
+    <state x="490" y="174" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584344976436" />
+    <state x="440" y="93" key="SettingsEditor" timestamp="1584347801477">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1584080284846" />
+    <state x="440" y="93" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584347801477" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1584346541822">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1584346541822" />
     <state x="640" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1584321346124">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584321346124" />
-    <state x="567" y="216" width="786" height="608" key="find.popup" timestamp="1584090606711">
+    <state x="567" y="216" width="786" height="608" key="find.popup" timestamp="1584335008959">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="567" y="216" width="786" height="608" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584090606711" />
-    <state x="330" y="213" key="new project wizard" timestamp="1584321668470">
+    <state x="567" y="216" width="786" height="608" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584335008959" />
+    <state x="330" y="213" key="new project wizard" timestamp="1584346065297">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="330" y="213" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1584321668470" />
+    <state x="330" y="213" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1584346065297" />
   </component>
 </project>
